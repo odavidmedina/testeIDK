@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Domine", serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
+  }
+  
+  .body1 {
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(192, 251, 255), rgba(207, 7, 191, 0.712));
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Lexend", sans-serif;
+  }
+  
+  
+  .hamburgesa {
+    display: none;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 40px;
+  
+    a {
+      margin: 0px 20px;
+      height: 400px;
+      margin-bottom: 80px;
+    }
+  }
+  
+  .adopta {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .container1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .image-text {
+    font-family: "Merienda", cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0px 35px 1px 52px;
+    border-radius: 5px;
+    font-size: 19px;
+    color: rgb(128, 1, 202);
+  }
+  .p1 {
+    font-family: "Lexend", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ejemplo1 {
+    display: flex;
+    padding: 80px 80px;
+    border-bottom: 1px solid black;
+  
+    img {
+      height: 500px;
+      width: auto;
+      border: 1px solid black;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    }
+  
+    p {
+      font-size: 25px;
+      padding-top: 80px;
+      padding-left: 30px;
+    }
+  }
+  
+  footer {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 15px;
+  
+    img {
+      height: 40px;
+      margin-right: 30px;
+      margin-top: 20px;
+    }
+  }

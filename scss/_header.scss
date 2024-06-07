@@ -1,0 +1,78 @@
+@mixin estilo-boton{
+        margin-left: 15px;
+        font-family: "Lexend", sans-serif;
+        color: blueviolet;
+        padding: 9px 25px;
+        background-color: beige;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-size: 20px;
+}
+$colorboton-color:1px solid gray;
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px 10%;
+    border-bottom: $colorboton-color;
+  
+    .logo img {
+      height: 50px;
+      width: auto;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  
+    .nav-links {
+      list-style: none;
+      display: grid;
+      grid-auto-flow: column;
+      gap: 20px;
+      justify-content: center;
+  
+      li {
+        padding: 10px;
+        background-color: beige;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+  
+        &:hover {
+          transform: scale(1.03);
+        }
+  
+        a {
+          font-family: "Lexend", sans-serif;
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+  
+          &:hover {
+            color: rgb(128, 8, 197);
+          }
+        }
+      }
+    }
+  
+    .boton {
+      justify-self: end;
+  
+      button {
+        @include estilo-boton();
+  
+        &:hover {
+          background-color: black;
+          color: rgb(128, 8, 197);
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  
